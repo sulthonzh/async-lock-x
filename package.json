@@ -1,0 +1,13 @@
+{
+  "name": "async-lock-x",
+  "version": "1.0.0",
+  "description": "Zero-dep async locks: Mutex, Semaphore, ReadWriteLock, Barrier",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": "src/cli.ts",
+  "scripts": {
+    "test": "node --test test/index.test.ts"
+  },
+  "keywords": ["mutex", "semaphore", "lock", "rwlock", "barrier", "async", "concurrency"],
+  "license": "MIT"
+}
