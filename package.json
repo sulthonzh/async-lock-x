@@ -8,6 +8,31 @@
   "scripts": {
     "test": "node --test test/index.test.ts"
   },
-  "keywords": ["mutex", "semaphore", "lock", "rwlock", "barrier", "async", "concurrency"],
-  "license": "MIT"
+  "keywords": [
+    "mutex",
+    "semaphore",
+    "lock",
+    "rwlock",
+    "barrier",
+    "async",
+    "concurrency"
+  ],
+  "license": "MIT",
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulthonzh/async-lock-x.git"
+  },
+  "homepage": "https://github.com/sulthonzh/async-lock-x#readme",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/async-lock-x/issues"
+  },
+  "author": "Sulthon Z"
 }
