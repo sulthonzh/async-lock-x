@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/sulthonzh/async-lock-x/issues"
   },
-  "author": "Sulthon Z"
+  "author": "Sulthon Z",
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
+  }
 }
