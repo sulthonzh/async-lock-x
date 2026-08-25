@@ -2,5 +2,14 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "packageNames": [
+        "typescript"
+      ],
+      "allowedVersions": "^6",
+      "description": "cap: @changesets toolchain tested on TS6 (peer-range) — same guard as fleet TS7 incidents"
+    }
   ]
 }
